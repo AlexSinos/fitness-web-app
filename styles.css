@@ -1,0 +1,147 @@
+.section {
+    flex:1;
+    display: flex;
+    padding: 0 150px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+.nav {
+    display:flex;
+    background-color:#1f2937;
+    padding: 20px 150px;
+}
+.nav-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    flex: 1;
+    font-weight: 700;
+}
+.nav-links {
+    display: flex;
+    gap:10px;
+    color: #E5E7EB;
+    flex: 1;
+    justify-content: end;
+}
+/*-------------Intro--------------*/
+.intro {
+    background-color: #1f2937;
+    display: flex;
+}
+.box {
+    display: flex;
+    align-items: stretch;
+}
+
+.left-intro {
+    color:#E5E7EB;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.left-intro-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.left-intro-button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 8px 20px;
+    border-radius: 8px;
+    margin: 10px 0px;
+    max-width: fit-content;
+}
+.right-intro {
+    flex:1;
+    background-color: gray;
+    display: flex;
+    padding: 10px;
+}
+.right-intro img {
+    max-width: 100%;
+    max-height: 200px;
+}
+/*-------------Body 1--------------*/
+.body1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.body1-title {
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+.body1-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+}
+.body1-boxes-box-image {
+    border: 4px solid#3882f6;
+    border-radius: 10px;
+}
+ .body1 img {
+    max-width:95%;
+    height: 
+}
+.body1-boxes-box-text {
+    text-align: center;
+}
+/*-------------Body 2--------------*/
+.body2 {
+    background-color: rgb(230, 230, 230);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    flex-direction: column;
+}
+.quote {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 36px;
+}
+.author {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: end;
+}
+/*-------------Body 3--------------*/
+.body3 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.body3-box {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    padding: 30px 50px;
+    display: flex;;
+    justify-content: space-between;
+    flex:1;
+}
+
+.body3-button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    border:2px solid#E5E7EB;
+    padding: 5px 35px;
+    align-items: center;
+    justify-content: center;
+}
+/*-------------Footer--------------*/
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    color: #E5E7EB;
+    padding: 30px;
+}
